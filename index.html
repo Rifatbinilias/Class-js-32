@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show all country From our World</title>
+    <style>
+        #countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .country {
+            border: 2px solid tomato;
+            border-radius: 2px;
+            padding: 20px;
+
+        }
+        .detrails{
+            width:50%;
+            margin: auto;
+            border: 2px dashed thistle;
+            padding-left: 20px ;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <section>
+        <div id="country-details"></div>
+        <h1>Show all Country</h1>
+        <div id="countries"></div>
+
+    
+    </section>
+
+
+    <script src="country.js"></script>
+</body>
+
+
+</html>
